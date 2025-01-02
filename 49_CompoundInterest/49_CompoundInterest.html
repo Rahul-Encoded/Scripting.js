@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="49_CompoundInterest.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="enclosure">
+        <h2>Interest Calculator</h2>
+        <div id="calculator">
+            <div id="PA">
+                <label for="amount">Principal Amount:</label>
+                <br>
+                <input type="number" id="amount"> <!-- Update to match JS -->
+            </div>
+            <br>
+            <div id="interest">
+                <label for="rate">Interest Rate:</label>
+                <br>
+                <input type="number" id="rate">
+            </div>
+            <br>
+            <div id="time">
+                <label for="years">Years:</label>
+                <br>
+                <input type="number" id="years"> <!-- Update to match JS -->
+            </div>
+            <br>
+            <div id="ncompounded">
+                <label for="n">No. of times interest is compounded:</label>
+                <br>
+                <input type="number" id="n">
+            </div>
+            <br>
+            <button type="submit" id="btn" onclick="calculate()">Submit</button> <!-- Removed unnecessary colon -->
+            <br>
+            <br>
+            <p id="totalAmonunt">Total: <span id="total"></span></p>
+        </div>
+        </div>
+    </div>
+
+    <script src="49_CompoundInterest.js"></script>
+</body>
+</html>

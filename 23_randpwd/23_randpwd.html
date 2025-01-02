@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="23_randpwd.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pwdgen">
+            <label for="length">Enter the length you want for your password: </label>
+            <br>
+            <input type="number" id="length">
+            <br>
+            <input type="checkbox" id="inclwr">
+            <label for="inclwr">include Lowercase</label><br>
+            <input type="checkbox" id="inccap">
+            <label for="inccap">include Uppercase</label><br>
+            <input type="checkbox" id="incnum">
+            <label for="incnum">include Numbers</label><br>
+            <input type="checkbox" id="incsym">
+            <label for="incsym">include Symbols</label><br>
+            <div id="pwd"></div>
+            <br>
+            <button id="btn" onclick="genPwd()">Generate password</button>
+        </div>
+    </div>
+
+    <script src="23_randpwd.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0a0a0a;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    color: #fff;
+}
+
+.weatherForm {
+    margin: 20px;
+}
+
+.cityInput {
+    padding: 12px;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 2px solid #0ff;
+    background-color: transparent;
+    margin: 10px;
+    width: 300px;
+    color: #0ff;
+    transition: all 0.3s ease;
+}
+
+.cityInput:focus {
+    outline: none;
+    box-shadow: 0 0 10px #0ff;
+}
+
+button[type="submit"] {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #f0f;
+    border: 2px solid #f0f;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button[type="submit"]:hover {
+    background-color: #f0f;
+    color: #0a0a0a;
+    box-shadow: 0 0 20px #f0f;
+    transition: 0.75s;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.8);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    color: #fff;
+}
+
+.cityDisplay, .tempDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f0f;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #f0f;
+}
+
+.humidityDisplay {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0f0;
+    text-shadow: 0 0 10px #0f0;
+}
+
+.descDisplay {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ff0;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #ff0;
+}
+
+.weatherEmoji {
+    margin: 10px 0;
+    font-size: 5rem;
+    text-shadow: 0 0 20px #fff;
+}
+
+.errorDisplay {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f00;
+    text-shadow: 0 0 10px #f00;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%), hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+    z-index: -1;
+    filter: blur(10px);
+    opacity: 0.5;
+}

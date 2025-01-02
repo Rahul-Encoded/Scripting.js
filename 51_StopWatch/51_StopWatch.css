@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(Dice/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+#myH1{
+    color: aliceblue;
+    backdrop-filter: blur(5px);
+}
+
+#container{
+    margin: auto;
+    margin-top: 15%; 
+    padding: 20px; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#watch{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    background-color: hsl(0, 0%, 100%, 0.1);
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
+
+#startBtn, #stopBtn, #resetBtn{
+    
+    border-radius: 2rem;
+    border: none;
+    margin: 1em;
+    padding: 10px 20px;
+    min-width: 125px;
+    cursor: pointer;
+}
+
+#startBtn{
+    background-color: green;
+    color: aquamarine;
+}
+#stopBtn{
+    background-color: red;
+    color: pink;
+}
+#resetBtn{
+    background-color: hsl(204, 86%, 59%);
+    color: aqua;
+}
+
+#startBtn:hover, #stopBtn:hover, #resetBtn:hover{
+    scale: 1.2;
+    transition: 0.75s;
+}
+
+#startBtn:hover{
+    background-color: aquamarine;
+    color: green;
+}
+
+#stopBtn:hover{
+    background-color: pink;
+    color: red;
+    
+}
+
+#resetBtn:hover{
+    background-color: aqua;
+    color: hsl(204, 86%, 59%);
+
+}

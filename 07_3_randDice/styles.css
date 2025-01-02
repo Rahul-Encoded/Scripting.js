@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+}
+
+#num{
+    background-color: aliceblue;
+}
+
+#btn{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 0.75em;
+    height: 2em;
+    width: 6em;
+}
+
+#btn:hover{
+    scale: 1.2;
+    background-color: black;
+    color: aquamarine;
+    transition: 0.75s;
+}
+
+img{
+    height: 6em;
+}
+
+.container{
+    height: 25%;
+    width: 50%;
+    border: 5px solid aliceblue; 
+    margin: auto;
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 0.5em;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: thistle;
+}
+
+.ask{
+    background-color: thistle;
+}
+
+.labels{
+    background-color: thistle;
+}

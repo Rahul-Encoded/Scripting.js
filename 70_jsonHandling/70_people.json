@@ -1,0 +1,24 @@
+[{
+    "name": "Gojo",
+    "age": 27,
+    "isEmployed": true
+},
+
+{
+    "name": "Ichigo",
+    "age": 16,
+    "isEmployed": false
+},
+
+{
+    "name": "Goku",
+    "age": 49,
+    "isEmployed": false
+},
+
+{
+    "name": "Light",
+    "age": 22,
+    "isEmployed": true
+}
+]

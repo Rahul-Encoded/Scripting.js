@@ -33,13 +33,9 @@ This repository is organized into folders and standalone files with numbered lab
 
 ## 🤝 Contributions  
 
-We welcome contributions to make this repository even better! Submit issues, suggest improvements, or contribute new examples via pull requests.  
+I welcome contributions to make this repository even better! Submit issues, suggest improvements, or contribute new examples via pull requests.  
 
 ---
-
-## 📜 License  
-
-This project is licensed under the MIT License. Feel free to use, modify, and share as you learn and grow!  
 
 ---
 

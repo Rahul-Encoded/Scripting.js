@@ -6,7 +6,7 @@ Welcome to **Scripting.js**, your ultimate guide to JavaScript mastery! Whether 
 
 ## 🗂️ Project Structure  
 
-This repository is organized into folders and standalone files with numbered labels to guide you systematically, each addressing core JavaScript concepts and advanced techniques.  
+This repository is organized into folders and standalone files with NUMBERED LABELS (please follow them) to guide you systematically, each addressing core JavaScript concepts and advanced techniques.  
 
 ---
 
